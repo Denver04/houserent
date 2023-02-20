@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 .card-section{
-    width: 30%;
+    /* width: 30%; */
     margin: 10px 0;
+}
+.cards a{
+    width: 32%;
+    text-decoration: none;
+    color: black;
 }
 .card{
     box-sizing: border-box;
@@ -63,7 +68,8 @@
 hr{
     transform: none;
     width: 90%;
-    margin: 2px auto;
+    margin: 0px auto;
+    color: beige;
 }
 .card-icon .icons .icon{
     color: rgb(124 77 255);
